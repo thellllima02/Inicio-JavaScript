@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	function pulaLinha(){
+		document.write("<br>");
+	}
+	
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var pensado = Math.round(Math.random()*10);
+
+	var chute = parseInt(prompt("Tente adivinhar o numero pensado"));
+
+	if(chute == pensado){
+		mostra("Voce acertou ");
+	}
+	else {
+		mostra("Voce errou, numero pensado foi = "+pensado);
+	}
+
+
+
+
+</script>
