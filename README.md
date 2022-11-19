@@ -1,2 +1,2 @@
-# JogoPong
+#JavaScript 
  JavaScript
